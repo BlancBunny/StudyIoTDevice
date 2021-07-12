@@ -1,0 +1,9 @@
+# take a picture 
+raspistill -v -o test.jpg
+# raspivid : video
+
+# -v (--verbose) : Output verbose information during run 
+# -vf (--vflip) : Set vertical flip
+# -hf (--hflip) : Set horizontal flip 
+
+
