@@ -84,8 +84,9 @@ def on_message(client, userdata, message):
         event_signal.set()
 
 def send_message():
-    print('sending message every 7 seconds!')
-    publish(topic, "message from client every 7 seconds!")
+    pass
+    # print('sending message every 7 seconds!')
+    # publish(topic, "message from client every 7 seconds!")
 
 def publish(topic, message, wait_for_ack = False):
     Qos = 2 if wait_for_ack else 0
