@@ -1,3 +1,5 @@
+# 저장된　이미지　출력
+
 import cv2
 import numpy as np
 
